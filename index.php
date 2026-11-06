@@ -45,7 +45,7 @@ $completed = 2;
         if ($completed >= count($topics)) {
             echo "<p>Все темы изучены.</p>\n";
         } else {
-            echo "<p>Изучение продолжается.</p>\n";
+            echo "<p></p>\n";
         }
         ?>
     </main>

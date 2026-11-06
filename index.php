@@ -48,6 +48,12 @@ $completed = 2;
             echo "<p></p>\n";
         }
         ?>
+
+        <p>Первая картинка:</p>
+        <img src="pic1.png" alt="Картинка 1">
+
+        <p>Вторая картинка:</p>
+        <img src="pic2.png" alt="Картинка 2">
     </main>
 
     <footer>

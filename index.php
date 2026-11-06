@@ -49,11 +49,13 @@ $completed = 2;
         }
         ?>
 
-        <p>Первая картинка:</p>
-        <img src="pic1.png" alt="Картинка 1">
+        <?php
+        $images = array("pic1.png", "pic2.png");
 
-        <p>Вторая картинка:</p>
-        <img src="pic2.png" alt="Картинка 2">
+        foreach ($images as $image) {
+        echo "<img src='$image' alt='Картинка' width='300'>";
+        }
+?>
     </main>
 
     <footer>
